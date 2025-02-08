@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# Move books to the library
+mv /books/new/* /library/
+
+chown -R kasm-user:kasm-user /library
