@@ -1,6 +1,4 @@
-ARG CALIBRE_VERSION="7.25.0"
-
-FROM lscr.io/linuxserver/calibre:${CALIBRE_VERSION}
+FROM lscr.io/linuxserver/calibre:7.25.0
 
 RUN apt update
 
