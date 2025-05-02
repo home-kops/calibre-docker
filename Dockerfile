@@ -1,4 +1,4 @@
-FROM lscr.io/linuxserver/calibre:7.25.0
+FROM lscr.io/linuxserver/calibre:7.26.0
 
 RUN apt update
 
